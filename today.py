@@ -21,8 +21,11 @@ import time
 import json
 import subprocess
 import shutil
+from io import BytesIO
 from datetime import datetime, timezone
 import requests
+
+from ascii_art import image_to_svg_rows
 
 USER_NAME = os.environ.get("GITHUB_USERNAME", "abdelrahmanyasser2001")
 ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
@@ -57,6 +60,7 @@ PROFILE_QUERY = """
 query($login: String!) {
   user(login: $login) {
     createdAt
+    avatarUrl
     followers { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false,
                   orderBy: {field: STARGAZERS, direction: DESC}) {
@@ -193,6 +197,25 @@ def get_total_loc(repo_nodes, author_logins):
 
 
 # ---------------------------------------------------------------------------
+# Avatar -> ASCII art
+# ---------------------------------------------------------------------------
+
+def get_avatar_ascii_rows(avatar_url, cols=34):
+    """Download the account's avatar and convert it into SVG <text> rows
+    of colored ASCII art, neofetch-card style."""
+    resp = requests.get(avatar_url, timeout=30)
+    resp.raise_for_status()
+    tmp_path = "/tmp/_avatar_download.png"
+    with open(tmp_path, "wb") as f:
+        f.write(resp.content)
+    rows_svg, n_rows = image_to_svg_rows(
+        tmp_path, cols=cols, x=20, y=34, line_height=11
+    )
+    os.remove(tmp_path)
+    return rows_svg, n_rows
+
+
+# ---------------------------------------------------------------------------
 # SVG templating
 # ---------------------------------------------------------------------------
 
@@ -221,6 +244,7 @@ def main():
 
     profile = get_profile()
     created_at = profile["createdAt"]
+    avatar_url = profile["avatarUrl"]
     followers = profile["followers"]["totalCount"]
     repos = profile["repositories"]["nodes"]
     repo_count = profile["repositories"]["totalCount"]
@@ -236,7 +260,10 @@ def main():
     age_years = (datetime.now(timezone.utc) - created).days // 365
     age_days = (datetime.now(timezone.utc) - created).days % 365
 
+    ascii_rows_svg, _ = get_avatar_ascii_rows(avatar_url)
+
     values = {
+        "ascii_art_rows": ascii_rows_svg,
         "age_data": f"{age_years} years, {age_days} days",
         "repo_data": fmt(repo_count),
         "contrib_data": fmt(contributed_to),
