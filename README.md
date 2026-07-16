@@ -13,13 +13,13 @@
 
 ## 🚀 About Me
 
-I am a recent **Information Systems** graduate with hands-on experience building end-to-end data pipelines, designing databases, and developing full-stack enterprise web applications. 
+I am a recent **Information Systems** graduate with hands-on experience building end-to-end data pipelines, designing databases, and developing full-stack enterprise web applications[cite: 5]. 
 
-Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** to build scalable data analytics workflows, with a strong focus on the cloud and modern data stack ecosystems.
+Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** to build scalable data analytics workflows, with a strong focus on cloud environments and modern data infrastructures[cite: 5].
 
-* 🎓 **Education:** Bachelor's Degree in Information Systems, AASTMT (GPA: 3.3 / Very Good)
-* 💼 **Recent Role:** Oracle APEX Developer @ Egyptian Armed Forces (Military Service)
-* 📍 **Location:** Egypt (On-site / Remote)
+* 🎓 **Education:** Bachelor's Degree in Information Systems, AASTMT (GPA: 3.3 / Very Good)[cite: 5]
+* 💼 **Recent Role:** Oracle Developer @ Egyptian Armed Forces (Military Service)[cite: 5]
+* 📍 **Location:** Egypt (On-site / Remote)[cite: 5]
 
 ---
 
@@ -31,7 +31,7 @@ Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** 
 | **Cloud & Storage** | ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF2?style=flat) |
 | **Databases** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) |
 | **Visualization** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=microsoftpowerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white) ![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=flat) |
-| **Web Dev & Tools** | ![Oracle APEX](https://img.shields.io/badge/Oracle_APEX-F80000?style=flat) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
+| **Tools & OS** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
 
 ---
 
@@ -51,30 +51,17 @@ Below are my real-time GitHub account statistics, updated automatically twice a 
 
 ## 📂 Highlighted Projects
 
-### 📊 [Chicago Crime Data Pipeline](https://github.com/abdelrahmanyasser2001/Chicago-Crime-Data-Pipeline)
-* **Tech Stack:** Apache Airflow, Snowflake, dbt, Metabase, Docker
-* Designed and implemented an end-to-end scalable data pipeline. 
-* Extracted raw crime records, loaded them into Snowflake, transformed the tables using dbt, and designed Metabase dashboards to visualize crime trends.
-
-### 🌤️ [NCEI API to Snowflake DAG](https://github.com/abdelrahmanyasser2001/Airflow-DAG-for-NCEI-to-Snowflake-Data-Pipeline)
-* **Tech Stack:** Apache Airflow, Snowflake, Astronomer (Astro)
-* Built an Airflow DAG to dynamically extract historical global temperature data from the NCEI API.
-* Optimized secure Snowflake schema configurations, staging, and permission grants.
-
-### 🏛️ [University Management System](https://github.com/abdelrahmanyasser2001/University-Management-System)
-* **Tech Stack:** Oracle SQL & PL/SQL
-* Implemented complex stored procedures, triggers, functions, and sequences to manage university operations (enrollment, course scheduling, GPA tracking).
-* Structured database indexing and constraints to enforce data integrity and optimize query execution.
-
-### 💻 [BashScript DBMS CLI Tool](https://github.com/abdelrahmanyasser2001/BashScript-DBMS-CLI-Tool)
-* **Tech Stack:** Bash Shell Scripting
-* Built a lightweight, file-based database engine operating through a Linux command-line interface. 
-* Implemented full CRUD engine capabilities with input sanitization and secure local hard disk storage.
+| Project | Tech Stack | Key Contributions |
+| :--- | :--- | :--- |
+| **[Chicago Crime Data Pipeline](https://github.com/abdelrahmanyasser2001/Chicago-Crime-Data-Pipeline)**[cite: 5] | Airflow, Snowflake, dbt, Metabase, Docker[cite: 5] | • Designed and implemented an end-to-end data pipeline to extract raw records[cite: 5].<br>• Transformed raw datasets using dbt models for analytics[cite: 5].<br>• Designed custom Metabase dashboards to visualize spatial and temporal crime trends[cite: 5]. |
+| **[NCEI to Snowflake DAG](https://github.com/abdelrahmanyasser2001/Airflow-DAG-for-NCEI-to-Snowflake-Data-Pipeline)**[cite: 5] | Apache Airflow, Snowflake, Astronomer[cite: 5] | • Built a robust Airflow DAG extracting historical temperature records from the NCEI API[cite: 5].<br>• Configured and optimized target schemas, roles, and warehouse compute permissions[cite: 5]. |
+| **[University Management System](https://github.com/abdelrahmanyasser2001/University-Management-System)**[cite: 5] | Oracle SQL & PL/SQL[cite: 5] | • Developed procedures, triggers, and sequences for automated enrollment and GPA calculations[cite: 5].<br>• Designed optimized index architectures to guarantee transactional performance[cite: 5]. |
+| **[BashScript DBMS CLI Tool](https://github.com/abdelrahmanyasser2001/BashScript-DBMS-CLI-Tool)**[cite: 5] | Bash Shell Scripting[cite: 5] | • Built a lightweight, menu-driven local DBMS engine entirely from scratch[cite: 5].<br>• Implemented robust file-based CRUD routines and input sanitization directly in terminal[cite: 5]. |
 
 ---
 
 ## 🎖️ Certifications
 
-* **Microsoft Certified:** Azure Data Fundamentals (July 2024)
-* **IBM:** Data Warehouse Engineer Professional Certificate (March 2024)
-* **Great Learning:** Big Data Analytics (February 2025)
+* **Microsoft Certified:** Azure Data Fundamentals (July 2024)[cite: 5]
+* **IBM:** Data Warehouse Engineer Professional Certificate (March 2024)[cite: 5]
+* **Great Learning:** Big Data Analytics (February 2025)[cite: 5]
