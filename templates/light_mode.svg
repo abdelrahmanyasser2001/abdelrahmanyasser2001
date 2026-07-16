@@ -1,0 +1,48 @@
+<svg width="820" height="250" viewBox="0 0 820 250" xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,monospace">
+  <style>
+    .bg { fill: #ffffff; }
+    .border { fill: none; stroke: #d0d7de; stroke-width: 1; }
+    .title { fill: #0969da; font-size: 15px; font-weight: bold; }
+    .dot { fill: #2da44e; }
+    .label { fill: #57606a; font-size: 13px; }
+    .value { fill: #24292f; font-size: 13px; font-weight: bold; }
+    .footer { fill: #8c959f; font-size: 10px; }
+    .art { font-size: 10px; }
+  </style>
+
+  <rect class="bg" width="820" height="250" rx="8" />
+  <rect class="border" x="0.5" y="0.5" width="819" height="249" rx="8" />
+
+  <!-- avatar ASCII art, left column -->
+  <g class="art">
+{{ ascii_art_rows }}
+  </g>
+
+  <line x1="330" y1="16" x2="330" y2="234" stroke="#eaeef2" stroke-width="1" />
+
+  <!-- stats, right column -->
+  <circle class="dot" cx="350" cy="24" r="4" />
+  <text x="362" y="29" class="title">abdelrahmanyasser2001@github</text>
+  <line x1="350" y1="42" x2="800" y2="42" stroke="#eaeef2" stroke-width="1" />
+
+  <text x="350" y="66" class="label">Account age:</text>
+  <text x="800" y="66" text-anchor="end" class="value">{{ age_data }}</text>
+
+  <text x="350" y="88" class="label">Repositories:</text>
+  <text x="800" y="88" text-anchor="end" class="value">{{ repo_data }} (contributed to {{ contrib_data }})</text>
+
+  <text x="350" y="110" class="label">Total commits:</text>
+  <text x="800" y="110" text-anchor="end" class="value">{{ commit_data }}</text>
+
+  <text x="350" y="132" class="label">Stars earned:</text>
+  <text x="800" y="132" text-anchor="end" class="value">{{ star_data }}</text>
+
+  <text x="350" y="154" class="label">Followers:</text>
+  <text x="800" y="154" text-anchor="end" class="value">{{ follower_data }}</text>
+
+  <text x="350" y="176" class="label">Lines of code:</text>
+  <text x="800" y="176" text-anchor="end" class="value">{{ loc_data }} (+{{ loc_add }}, -{{ loc_del }})</text>
+
+  <line x1="350" y1="188" x2="800" y2="188" stroke="#eaeef2" stroke-width="1" />
+  <text x="800" y="204" text-anchor="end" class="footer">last updated {{ updated_at }}</text>
+</svg>
