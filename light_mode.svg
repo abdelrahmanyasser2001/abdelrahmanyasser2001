@@ -43,7 +43,7 @@
   <line x1="350" y1="42" x2="800" y2="42" stroke="#eaeef2" stroke-width="1" />
 
   <text x="350" y="66" class="label">Account age:</text>
-  <text x="800" y="66" text-anchor="end" class="value">2 years, 139 days</text>
+  <text x="800" y="66" text-anchor="end" class="value">2 years, 140 days</text>
 
   <text x="350" y="88" class="label">Repositories:</text>
   <text x="800" y="88" text-anchor="end" class="value">6 (contributed to 0)</text>
@@ -55,11 +55,11 @@
   <text x="800" y="132" text-anchor="end" class="value">1</text>
 
   <text x="350" y="154" class="label">Followers:</text>
-  <text x="800" y="154" text-anchor="end" class="value">9</text>
+  <text x="800" y="154" text-anchor="end" class="value">8</text>
 
   <text x="350" y="176" class="label">Lines of code:</text>
   <text x="800" y="176" text-anchor="end" class="value">488,232 (+494,246, -6,014)</text>
 
   <line x1="350" y1="188" x2="800" y2="188" stroke="#eaeef2" stroke-width="1" />
-  <text x="800" y="204" text-anchor="end" class="footer">last updated 2026-09-12 03:26 UTC</text>
+  <text x="800" y="204" text-anchor="end" class="footer">last updated 2026-09-12 15:07 UTC</text>
 </svg>
