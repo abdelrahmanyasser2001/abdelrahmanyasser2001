@@ -53,7 +53,7 @@ Security is built into how I work, not bolted on afterward — I integrate **Son
 | [Chicago-Crime-Data-Zoomcamp](https://github.com/abdelrahmanyasser2001/Chicago-Crime-Data-Zoomcamp) | End-to-end batch pipeline over Chicago crime data |
 | [Stock-market-fabric-project](https://github.com/abdelrahmanyasser2001/Stock-market-fabric-project) | Stock market data pipeline project |
 | [University-Management-System](https://github.com/abdelrahmanyasser2001/University-Management-System) | PL/SQL system for students, courses, and enrollments |
-| 
+ 
 
 ---
 
