@@ -1,20 +1,23 @@
-<h1 align="center">Hi, I'm Abdelrahman </h1>
-<p align="center">Aspiring Data Engineer · Information Systems grad · Alexandria, Egypt</p>
+<h1 align="center">Hi, I'm Abdelrahman</h1>
+<p align="center">DevSecOps / CloudEngineer · Information Systems Grad · Alexandria, Egypt</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/abdelrahman-yasser-nada"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/abdelrahmanyasser2001"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="mailto:abdelrahmanyasser.nada@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
 ### About Me
 
-I am a recent **Information Systems** graduate with hands-on experience building end-to-end data pipelines, designing databases.
+I'm a recent **Information Systems** graduate with hands-on experience building automated CI/CD pipelines, provisioning cloud infrastructure as code, and embedding security scanning directly into delivery workflows.
 
-Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** to build scalable data analytics workflows, with a strong focus on cloud environments and modern data infrastructures.
+I've engineered deployment pipelines with **Jenkins, GitHub Actions, and GitLab CI**. On the infrastructure side, I provision secure **AWS** environments (EC2, Elastic IPs, Security Groups) with **Terraform**.
 
-*  **Education:** Bachelor's Degree in Information Systems, AASTMT (GPA: 3.3 / Very Good)
-*  **Location:** Egypt (On-site / Remote)
+Security is built into how I work, not bolted on afterward — I integrate **SonarQube (SAST)**, **Trivy (SCA)**, and **OWASP ZAP (DAST)** directly into build stages, and containerize applications with **Docker** as standard practice.
+
+-  **Education:** B.Sc. in Information Systems, AASTMT (GPA: 3.3/4.0, Very Good)
+-  **Location:** Cairo, Egypt (Open to On-site / Remote)
 
 ---
 
@@ -22,17 +25,15 @@ Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** 
 
 | Category | Technologies |
 | :--- | :--- |
-| **Data Engineering** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-00758F?style=flat) ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white) |
-| **Cloud & Storage** | ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF2?style=flat) |
-| **Databases** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) |
-| **Visualization** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=microsoftpowerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white) ![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=flat) |
-| **Tools & OS** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
+| **CI/CD & Automation** | ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat&logo=gitlab&logoColor=white) |
+| **IaC & Cloud** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
+| **Security Tooling** | ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat&logo=sonarqube&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat) ![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat&logo=owasp&logoColor=white) |
+| **Containers & Scripting** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) |
 
 ---
 
 ###  GitHub Stats
-
-
 
 <p align="center">
   <picture>
@@ -44,17 +45,20 @@ Currently, I'm leveraging my skills in **Python, SQL, dbt, and Apache Airflow** 
 
 ---
 
-### Featured projects
+###  Featured Projects
 
 | Project | Description |
 |---|---|
+| [Go-CI-CD-Pipeline ](https://github.com/abdelrahmanyasser2001/Go-CI-CD-Pipeline) | CI/CD pipeline using Jenkins, Golang, Docker |
 | [Chicago-Crime-Data-Zoomcamp](https://github.com/abdelrahmanyasser2001/Chicago-Crime-Data-Zoomcamp) | End-to-end batch pipeline over Chicago crime data |
 | [Stock-market-fabric-project](https://github.com/abdelrahmanyasser2001/Stock-market-fabric-project) | Stock market data pipeline project |
 | [University-Management-System](https://github.com/abdelrahmanyasser2001/University-Management-System) | PL/SQL system for students, courses, and enrollments |
-| [AbdelZoomCamp2025](https://github.com/abdelrahmanyasser2001/AbdelZoomCamp2025) | Data engineering zoomcamp coursework |
+| 
 
-### Certifications
+---
 
-* **Microsoft Certified:** Azure Data Fundamentals (July 2024)
-* **IBM:** Data Warehouse Engineer Professional Certificate (March 2024)
-* **Great Learning:** Big Data Analytics (February 2025)
+
+
+---
+
+<p align="center"><i>Always open to connecting on DevSecOps, cloud infrastructure, or automation projects.</i></p>
