@@ -2,41 +2,46 @@
   "Chicago-Crime-Data-Zoomcamp": {
     "add": 23,
     "del": 19,
-    "updated": 1791042561.1686974
+    "updated": 1791088717.4263983
   },
   "abdelrahmanyasser2001": {
     "add": 920,
     "del": 338,
-    "updated": 1791042561.7384982
+    "updated": 1791088718.7668958
   },
   "Stock-market-fabric-project": {
     "add": 3936,
     "del": 3695,
-    "updated": 1791042562.0799637
+    "updated": 1791088719.3514106
   },
   "AbdelZoomCamp2025": {
     "add": 486331,
     "del": 708,
-    "updated": 1791042564.498716
+    "updated": 1791088722.3362052
   },
   "University-Management-System": {
     "add": 2414,
     "del": 1272,
-    "updated": 1791042565.174601
+    "updated": 1791088723.1589272
   },
   "BashScript-DBMS-project": {
     "add": 646,
     "del": 2,
-    "updated": 1791042565.6982627
+    "updated": 1791088723.9160602
   },
   "Go-CI-CD-Pipeline": {
     "add": 1,
     "del": 0,
-    "updated": 1791042561.5124772
+    "updated": 1791088718.3941355
   },
   "End-to-End-DevSecOps-CI-CD-Pipeline": {
     "add": 1,
     "del": 0,
-    "updated": 1791042561.3407724
+    "updated": 1791088718.0734687
+  },
+  "devstud": {
+    "add": 0,
+    "del": 0,
+    "updated": 1791088717.7973032
   }
 }
